@@ -4,6 +4,8 @@ import * as serviceWorker from './serviceWorker';
 import App from './App';
 import './assert/scss/thema.scss';
 
+import './configs/i18n.config';
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
