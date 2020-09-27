@@ -1,0 +1,20 @@
+.navbar {
+  box-shadow:
+          12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+          -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+.navbar-light .navbar-toggler {
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0)!important;
+}
+
+.btn-light {
+  background-color: rgba(0,0,0,0)!important;
+  border-color: rgba(0, 0, 0, 0)!important;
+}
+
+.btn-light:focus{
+  box-shadow: 0 0 0 0.0rem rgba(0, 0, 0, 0)!important;
+}

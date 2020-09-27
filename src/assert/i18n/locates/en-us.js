@@ -3,6 +3,10 @@ export default {
         home: {
             title: 'Welcome!',
             message: 'soon be ready.'
+        },
+        menu: {
+            portfolio: 'Portfolio',
+            blog: 'Blog'
         }
     }
 }
