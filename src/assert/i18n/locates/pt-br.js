@@ -5,8 +5,11 @@ export default {
             message: 'Em breve estará tudo pronto.'
         },
         menu: {
+            home: 'Início',
+            about: 'Sobre',
+            abstract: 'Resumo',
             portfolio: 'Portfólio',
-            blog: 'Blog'
+            blog: 'Blog',
         }
     }
 }

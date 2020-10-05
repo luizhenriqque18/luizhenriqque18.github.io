@@ -8,26 +8,39 @@ import {Route, Switch} from "react-router";
 import './configs/i18n.config';
 import './assert/scss/thema.scss';
 import 'bootstrap/js/src'
-
-import App from './App';
-import Blog from './blog'
+import './App.css';
 import NavBar from "./ui/navbar";
-import br from "./assert/image/brazil.png";
-import usa from "./assert/image/usa.png";
-import ReactMarkdown from "react-markdown";
+import Home from "./components/home";
+import About from "./components/about";
+import Abstract from "./components/abstract";
+import Portifolio from "./components/portifolio";
 
 ReactDOM.render(
     <BrowserRouter>
-        <div className="container">
-            <div className="row">
+        <div className="container-fluid">
+            <div className="row fixed-top">
                 <div className="col-md-12">
                     <NavBar/>
                 </div>
             </div>
-            <Switch>
+            <div className="row">
+                <div id='home' className='col-md-12 p-0'>
+                    <Home/>
+                </div>
+                <div id='about' className='col-md-12'>
+                    <About/>
+                </div>
+                <div id='abstract' className='col-md-12'>
+                    <Abstract/>
+                </div>
+                <div id='portfolio' className='col-md-12'>
+                    <Portifolio/>
+                </div>
+            </div>
+            {/*<Switch>
                 <Route exact path={'/portfolio'} component={App}/>
                 <Route exact path={'/blog'} component={Blog}/>
-            </Switch>
+            </Switch>*/}
         </div>
     </BrowserRouter>,
   document.getElementById('root')

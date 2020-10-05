@@ -1,0 +1,13 @@
+.home {
+    justify-content: space-evenly;
+    height: 100vh;
+
+}
+
+p span::after {
+    content: "|";
+    text-align: center;
+    display: inline-block;
+    padding: 0 8px 0 14px;
+    color: gray;
+}
